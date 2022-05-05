@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* header styling */
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.logo a {
+    color: green;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+span {
+    text-decoration: underline;
+}
+
+ul li {
+        list-style-type: none;
+        display: inline;
+        padding-left: 30px;
+        font-size: large;
+
+}
+
+ul li a {
+    color: rgb(29, 28, 28);
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: green;
+}
+
+.btn-primary {
+    background: green;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: darkgreen;
+}
+
+
+/* end header styling */
